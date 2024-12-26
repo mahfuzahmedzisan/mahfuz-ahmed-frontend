@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  aria-hidden="true" role="img" width="32" height="32"
+  preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50">
+  <!-- Gradients Definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#41D1FF"></stop>
+      <stop offset="100%" stop-color="#BD34FE"></stop>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#5CFFDE"></stop>
+      <stop offset="70%" stop-color="#f2f2c7"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Circle with Gradient Fill -->
+  <!-- <circle cx="128" cy="128" r="30" fill="url(#gradient1)" stroke="#5CFFDE" stroke-width="3" /> -->
+
+  <!-- Text M with Gradient and Font from HTML -->
+  <text x="50%" y="50%" font-size="48px" fill="url(#gradient2)"
+    font-family="'Clicker Script', cursive" dominant-baseline="middle" text-anchor="middle">M</text>
+</svg>

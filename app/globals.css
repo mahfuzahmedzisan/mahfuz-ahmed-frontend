@@ -1,12 +1,49 @@
+@import url('font.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --white: #ffffff;
-  --dark: #171717;
+  /* Colors  */
+
+  --primary: #ff014f;
+
+  --bg: #212428;
+
 }
 
+/* Global Body Styles */
 body {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+  border: 3px solid var(--bg);
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-horizontal {
+  height: 8px;
+}
+
+/* html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--bg);
+} */
