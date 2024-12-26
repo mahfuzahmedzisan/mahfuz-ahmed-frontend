@@ -1,7 +1,10 @@
 import React from 'react'
+import AboutMain from './About/AboutMain'
 
 export default function About() {
    return (
-      <div className='h-screen'>About</div>
+      <>
+         <AboutMain></AboutMain>
+      </>
    )
 }

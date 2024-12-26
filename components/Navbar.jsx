@@ -95,7 +95,7 @@ export default function Navbar() {
         <div
           className={`lg:hidden fixed inset-0 bg-black/60 z-10 transition-all transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}></div>
 
-        <div className={`fixed inset-0 bg-bg-dark w-1/2 md:w-3/5 h-full lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300 ease-in-out z-[9999] px-5 text-light`}>
+        <div className={`fixed inset-0 bg-bg-dark w-2/3 md:w-3/5 h-full lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300 ease-in-out z-[9999] px-5 text-light`}>
 
           <div className='flex justify-between items-center pb-3 pt-8'>
             <Link href="/" className='text-2xl font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300'>Mahfuz Ahmed</Link>
