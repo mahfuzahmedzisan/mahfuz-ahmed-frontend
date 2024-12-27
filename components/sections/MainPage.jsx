@@ -7,20 +7,28 @@ import Project from './Projects';
 import Skill from './Skills';
 import Testimonial from './Testimonials';
 import Contact from './Contact';
-import PreLoader from '../PreLoader'; // Assuming PreLoader is another component
+import PreLoader from '../PreLoader';
 
 export default function MainPage() {
    const [isLoading, setIsLoading] = useState(true);
+   const [isClient, setIsClient] = useState(false);
 
    useEffect(() => {
+      setIsClient(true);  // Only set this after the component mounts on the client side
+
       // Simulate a loading delay (3 seconds) before hiding the preloader
       const timer = setTimeout(() => {
          setIsLoading(false); // Hide preloader after 3 seconds
-      }, 0);
+      }, 3000);
 
       // Cleanup the timer when the component unmounts
       return () => clearTimeout(timer);
    }, []);
+
+   // Ensure no hydration issues by only rendering the real content after client-side mount
+   if (!isClient) {
+      return null; // Prevent mismatch during SSR
+   }
 
    return (
       isLoading ? (
@@ -28,11 +36,11 @@ export default function MainPage() {
       ) : (
          <>
             <About />
-            <Features />
-            <Project />
-            <Skill />
-            <Testimonial />
-            <Contact />
+            <section id='features' className='h-screen'><Features /></section>
+            <section id='projects' className='h-screen'><Project /></section>
+            <section id='skills' className='h-screen'><Skill /></section>
+            <section id='testimonials' className='h-screen'><Testimonial /></section>
+            <section id='contact' className='h-screen'><Contact /></section>
          </>
       )
    );

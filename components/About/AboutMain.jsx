@@ -102,7 +102,7 @@ export default function AboutMain() {
                 className="absolute inset-0 bg-transparent opacity-0"
                 aria-label="Open About Details"> </button>
             </div>
-            <div className='flex flex-col sm:flex-row justify-between items-center lg:items-end space-y-10 w-full space-x-10 lg:!mt-10'>
+            <div className='flex flex-col sm:flex-row justify-between items-center sm:items-end space-y-10 w-full space-x-10 lg:!mt-10'>
               <div>
                 <p className='uppercase text-light text-sm mb-2 lg:mb-5'>Connect with me</p>
                 <div className='flex space-x-3'>
@@ -112,7 +112,7 @@ export default function AboutMain() {
                       href={item.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`text-2xl w-14 h-14 flex items-center justify-center rounded-sm bg-gradient-primary shadow-shadow-primary transition-all duration-300 hover:bg-bg-dark hover:text-primary`}
+                      className={`text-2xl w-14 h-14 flex items-center justify-center rounded-md bg-gradient-primary shadow-shadow-primary transition-all duration-300 hover:bg-bg-dark hover:text-primary hover:shadow-sm hover:shadow-primary hover:-translate-y-1`}
                     >
                       {getIcons(item.title)}
                     </Link>
@@ -123,7 +123,7 @@ export default function AboutMain() {
                 <p className='uppercase text-light text-sm mb-2 lg:mb-5'>Best Skill on</p>
                 <div className='flex space-x-3'>
                   {skills.filter(item => ['JavaScript', 'React', 'NextJS', 'Laravel'].includes(item.name)).map((item, index) => (
-                    <div key={index} style={{ color: item.color }} className={`w-14 h-14 flex items-center text-3xl justify-center rounded-sm bg-gradient-primary shadow-shadow-primary`}>
+                    <div key={index} style={{ color: item.color }} className={`w-14 h-14 flex items-center text-3xl justify-center rounded-md bg-gradient-primary shadow-shadow-primary`}>
                       {getIcons2(item.name)}
                     </div>
                   ))}

@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import Navbar from '@/components/sections/Navbar'
+import Navbar from '@/components/Navbar'
 
 export default function header() {
 
@@ -41,7 +41,7 @@ export default function header() {
             <Navbar />
          </header>
          <header
-            className={`fixed top-0 left-0 w-full bg-dark-secondary/80 z-[9999999] transition-all duration-300 ${isScrolled && showSecondNavbar ? 'opacity-100' : 'opacity-0 translate-y-[-100%]'}`}
+            className={`fixed top-0 left-0 w-full bg-dark-secondary/90 z-[9999999] transition-all duration-300 ${isScrolled && showSecondNavbar ? 'opacity-100' : 'opacity-0 translate-y-[-100%]'}`}
          >
             <Navbar />
          </header>

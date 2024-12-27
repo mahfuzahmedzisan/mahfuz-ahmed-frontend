@@ -58,6 +58,8 @@ const config = {
         'wave': 'wave 2s linear infinite',
         'pulsate': 'pulsate 3s infinite alternate ease-in-out',
         'stroke': 'stroke 4s',
+        'slide-up': 'slideUp 0.45s ease-out',
+        'slide-down': 'slideDown 0.45s ease-out',
       },
       keyframes: {
         'loading': {
@@ -105,6 +107,18 @@ const config = {
             'stroke-dasharray': '100% 0',
             'stroke-width': '2',
           },
+        },
+        'shake': {
+          '0%': { transform: 'translate(2px, 1px) rotate(0deg)' },
+          '10%': { transform: 'translate(-1px, -2px) rotate(-1deg)' },
+        },
+        'slideUp': {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'slideDown': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(100%)' },
         },
       }
     },
