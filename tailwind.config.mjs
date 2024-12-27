@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
+  mode: 'jit',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,7 +11,7 @@ const config = {
       center: true,
       padding: "1rem",
       screens: {
-        '3xl': '1536px',
+        '4xl': '1848px',
       }
     },
     extend: {
@@ -22,6 +23,7 @@ const config = {
         'xl': '1024px',
         '2xl': '1280px',
         '3xl': '1536px',
+        '4xl': '1848px',
       },
       colors: {
         'primary': "#ff014f",
@@ -41,7 +43,7 @@ const config = {
         'gradient-primary': 'linear-gradient(145deg, #1e2024, #23272b)',
       },
       boxShadow: {
-        'shadow-primary': "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+        'shadow-primary': "10px 10px 19px #1c1e22, -10px -10px 19px #2d3136",
       },
 
       fontFamily: {
@@ -75,19 +77,19 @@ const config = {
         'pulsate': {
           '0%': {
             transform: 'scale(1)',
-            opacity: '0.8',
+            opacity: '0.2',
             'stroke-width': '1',
             'stroke-dasharray': '0 0',
           },
           '50%': {
             transform: 'scale(1.05)',
-            opacity: '1',
+            opacity: '0.4',
             'stroke-width': '2',
             'stroke-dasharray': '100% 0',
           },
           '100%': {
             transform: 'scale(1)',
-            opacity: '0.8',
+            opacity: '0.2',
             'stroke-width': '1',
             'stroke-dasharray': '0 50%',
           },

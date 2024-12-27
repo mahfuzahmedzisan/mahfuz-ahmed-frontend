@@ -11,7 +11,7 @@ export default function PreLoader({ isLoading }) {
 
    return (
       <>
-         {/* <div
+         <div
             className={`preloader fixed inset-0 z-[99999999999999] flex items-center justify-center bg-transparent transition-all duration-500 ${!isLoading ? 'h-0' : 'h-screen'}`}
          >
             <svg
@@ -34,7 +34,7 @@ export default function PreLoader({ isLoading }) {
                   ))}
                </div>
             </div>
-         </div> */}
+         </div>
       </>
    );
 }

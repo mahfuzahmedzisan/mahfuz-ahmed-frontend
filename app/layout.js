@@ -1,6 +1,6 @@
 import "./globals.css";
 import Header from "@/components/header/Header";
-import Footer from "@/components/Footer";
+import Footer from "@/components/sections/Footer";
 
 export const metadata = {
   title: "Mahfuz Ahmed - Web Developer",

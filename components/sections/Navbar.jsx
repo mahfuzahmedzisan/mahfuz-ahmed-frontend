@@ -70,7 +70,7 @@ export default function Navbar() {
 
       <nav className='flex items-center justify-between px-5 xl:px-10 py-3 g-transparent'>
 
-        <Link href="/" className='text-2xl font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300 py-3'>Mahfuz Ahmed</Link>
+        <Link href="/" className={`${isMenuOpen ? "text-sm" : "text-2xl"} font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300 py-3`}>Mahfuz Ahmed</Link>
 
         <div className='items-center space-x-5 hidden lg:flex'>
           {
@@ -83,7 +83,7 @@ export default function Navbar() {
         {
           isMenuOpen ?
             <div>
-              <div className='text-2xl font-bold font-Montserrat'>Mahfuz Ahmed</div>
+              <div className='text-2xl pt-5 text-nowrap font-bold font-Montserrat'>Mahfuz Ahmed</div>
             </div>
             :
             <button className='lg:hidden text-2xl p-3 shadow-shadow-primary bg-gradient-primary rounded-lg hover:bg-bg-dark hover:text-primary/80 transition-all duration-300' onClick={() => setIsMenuOpen(true)}><FaBars /></button>
@@ -98,7 +98,7 @@ export default function Navbar() {
         <div className={`fixed inset-0 bg-bg-dark w-2/3 md:w-3/5 h-full lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300 ease-in-out z-[9999] px-5 text-light`}>
 
           <div className='flex justify-between items-center pb-3 pt-8'>
-            <Link href="/" className='text-2xl font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300'>Mahfuz Ahmed</Link>
+            <Link href="/" className='text-lg md:text-2xl font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300'>Mahfuz Ahmed</Link>
 
             <button className='text-2xl p-2 shadow-shadow-primary bg-gradient-primary rounded-lg hover:bg-bg-dark hover:text-primary/80 transition-all duration-300' onClick={() => setIsMenuOpen(false)}><FaXmark /></button>
           </div>
