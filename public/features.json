@@ -1,0 +1,179 @@
+[
+   {
+      "title": "Custom Web Development",
+      "short_description": "Create custom websites tailored to your business needs with modern technologies.",
+      "long_description": "We design and develop fully customized websites that align with your business goals. Whether you need a simple site or a sophisticated web application, we focus on delivering a high-performing, visually appealing, and user-friendly online presence that resonates with your audience. Our custom web development services include content management system (CMS) integration, scalable architecture, and seamless third-party integrations, ensuring your website evolves as your business grows.",
+      "target_audience": "Businesses looking for bespoke websites that stand out and scale as they grow.",
+      "key_technologies_used": [
+         "HTML5",
+         "CSS3",
+         "JavaScript (React, Vue.js)",
+         "Node.js",
+         "PHP",
+         "Ruby on Rails"
+      ],
+      "benefits": [
+         "Scalable web solutions tailored to your business needs.",
+         "Enhanced user experience with modern UI/UX designs.",
+         "Seamless integration with third-party tools and services.",
+         "Robust security features to protect your data and users."
+      ],
+      "pricing_model": "Project-based pricing, with flexible packages based on project complexity.",
+      "service_availability": "Available globally, with teams in North America, Europe, and Asia.",
+      "industry_focus": [
+         "E-commerce",
+         "Healthcare",
+         "Education",
+         "Finance",
+         "Technology"
+      ],
+      "project_duration": "Typically 4-12 weeks depending on the complexity of the project."
+   },
+   {
+      "title": "E-Commerce Solutions",
+      "short_description": "Build an online store with a seamless shopping experience and secure checkout.",
+      "long_description": "Our e-commerce solutions provide you with everything needed to launch and manage a successful online store. We build intuitive platforms that ensure your customers enjoy a smooth shopping experience from browsing to checkout, while also offering flexibility and scalability to grow your business. We specialize in building secure, high-converting online stores that maximize sales and minimize cart abandonment.",
+      "target_audience": "Retailers and entrepreneurs looking to launch or upgrade their online stores.",
+      "key_technologies_used": [
+         "Shopify",
+         "WooCommerce",
+         "Magento",
+         "Stripe",
+         "PayPal",
+         "React"
+      ],
+      "benefits": [
+         "Increase sales with a smooth, user-friendly shopping experience.",
+         "Secure checkout and payment processing to build customer trust.",
+         "Mobile-optimized design for seamless shopping on any device.",
+         "Scalability for handling increased traffic and sales as your business grows."
+      ],
+      "pricing_model": "Subscription-based pricing or one-time fee for platform setup.",
+      "service_availability": "Available globally with localized payment gateway support.",
+      "industry_focus": [
+         "Retail",
+         "Fashion",
+         "Consumer Goods",
+         "Digital Products",
+         "Subscription-based businesses"
+      ],
+      "project_duration": "Typically 3-6 weeks for small to medium-sized stores; 6-12 weeks for large-scale stores."
+   },
+   {
+      "title": "Responsive Web Design",
+      "short_description": "Ensure your website looks great and functions well on any device.",
+      "long_description": "Our responsive web design ensures that your website automatically adjusts to different screen sizes, from mobile phones to large desktop monitors. We focus on creating user-friendly and visually appealing designs that enhance the user experience across all devices, improving engagement and SEO performance. With the growing importance of mobile traffic, our designs are optimized for both mobile-first and desktop-first approaches to maximize reach and usability.",
+      "target_audience": "Businesses aiming to provide an excellent user experience on all devices.",
+      "key_technologies_used": [
+         "CSS Grid",
+         "Flexbox",
+         "Bootstrap",
+         "Foundation",
+         "JavaScript",
+         "jQuery"
+      ],
+      "benefits": [
+         "Improved user experience on all screen sizes, from mobile to desktop.",
+         "Higher SEO rankings thanks to mobile-first design.",
+         "Reduced bounce rates and increased time-on-site due to optimized designs.",
+         "Faster load times across devices, improving engagement."
+      ],
+      "pricing_model": "Hourly or project-based pricing depending on design scope.",
+      "service_availability": "Available globally with regional design teams in key markets.",
+      "industry_focus": [
+         "E-commerce",
+         "Tech Startups",
+         "Corporate Websites",
+         "Education",
+         "Nonprofits"
+      ],
+      "project_duration": "Typically 2-6 weeks depending on the complexity of the website."
+   },
+   {
+      "title": "Search Engine Optimization (SEO)",
+      "short_description": "Improve your website's visibility and organic search ranking with SEO.",
+      "long_description": "Our SEO services are designed to increase your website’s ranking on search engines like Google. We focus on keyword research, on-page optimization, technical SEO, and building a solid backlink profile to help your website gain organic traffic and outperform your competition. Our approach ensures your site is not only optimized for search engines but also delivers valuable, high-quality content that engages users and improves conversions.",
+      "target_audience": "Businesses looking to improve their online visibility and drive organic traffic.",
+      "key_technologies_used": [
+         "Google Analytics",
+         "Google Search Console",
+         "SEMrush",
+         "Ahrefs",
+         "Yoast SEO"
+      ],
+      "benefits": [
+         "Increased organic traffic through strategic keyword targeting.",
+         "Improved search rankings, making your website more discoverable.",
+         "Better user engagement and conversion rates from optimized content.",
+         "Enhanced brand authority with high-quality backlinks."
+      ],
+      "pricing_model": "Monthly retainer or project-based pricing depending on the scope of services.",
+      "service_availability": "Available worldwide with services tailored to local SEO needs.",
+      "industry_focus": [
+         "Real Estate",
+         "Travel",
+         "E-commerce",
+         "Healthcare",
+         "Finance"
+      ],
+      "project_duration": "SEO improvements typically begin showing results in 3-6 months."
+   },
+   {
+      "title": "Website Maintenance & Support",
+      "short_description": "Keep your website secure, up-to-date, and running smoothly with our maintenance plans.",
+      "long_description": "Our website maintenance services are designed to keep your site secure, functional, and up-to-date. From software updates and bug fixes to security monitoring and regular backups, we ensure your website remains efficient, safe, and free of disruptions, giving you peace of mind and allowing you to focus on your business. We offer flexible maintenance plans tailored to your needs, ensuring that your website is always operating at its best.",
+      "target_audience": "Businesses that need ongoing support to maintain and optimize their websites.",
+      "key_technologies_used": [
+         "WordPress",
+         "Drupal",
+         "Joomla",
+         "Cloudflare",
+         "AWS"
+      ],
+      "benefits": [
+         "Continuous monitoring to prevent downtime and issues.",
+         "Security patches to protect your website from vulnerabilities.",
+         "Regular content and software updates to keep your site fresh.",
+         "Faster troubleshooting and resolution of technical problems."
+      ],
+      "pricing_model": "Monthly or annual maintenance plans with tiered pricing based on website size and complexity.",
+      "service_availability": "Available globally with remote support and on-site assistance for major issues.",
+      "industry_focus": [
+         "Small to Medium-sized Enterprises (SMEs)",
+         "E-commerce",
+         "Corporate Websites",
+         "Nonprofits"
+      ],
+      "project_duration": "Ongoing support with flexible packages based on business needs."
+   },
+   {
+      "title": "Web Application Development",
+      "short_description": "Build powerful, scalable, and interactive web applications to meet your business needs.",
+      "long_description": "We develop custom web applications using modern frameworks like React, Angular, and Node.js. Our applications are designed to be scalable, secure, and feature-rich, solving real-world business challenges and helping you streamline operations, enhance productivity, and deliver excellent user experiences. From complex enterprise-level solutions to lightweight apps, we offer full-stack development with real-time data processing and advanced integrations.",
+      "target_audience": "Businesses looking to build custom software solutions or internal tools.",
+      "key_technologies_used": [
+         "React",
+         "Node.js",
+         "Angular",
+         "Vue.js",
+         "MongoDB",
+         "Express.js"
+      ],
+      "benefits": [
+         "Custom web apps tailored to solve specific business problems.",
+         "Scalability to handle large amounts of data and users.",
+         "Improved productivity through streamlined, interactive tools.",
+         "High security and data protection for sensitive business information."
+      ],
+      "pricing_model": "Hourly or project-based pricing based on the complexity of the web application.",
+      "service_availability": "Available globally with distributed teams for 24/7 development support.",
+      "industry_focus": [
+         "Enterprise Solutions",
+         "Fintech",
+         "Healthcare",
+         "Logistics",
+         "SaaS"
+      ],
+      "project_duration": "Typically 3-6 months depending on the complexity of the application."
+   }
+]

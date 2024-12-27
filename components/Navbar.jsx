@@ -86,7 +86,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className='flex items-center justify-between px-5 xl:px-10 py-3 g-transparent'>
+      <nav className='flex items-center justify-between px-5 xl:px-10 py-3 g-transparent backdrop-blur-lg'>
         <Link href="/" onClick={(e) => handleScrollToSection(e, "/")} className={`${isMenuOpen ? "text-sm" : "text-2xl"} font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300 py-3`}>Mahfuz Ahmed</Link>
 
         <div className='items-center space-x-5 hidden lg:flex'>
@@ -113,9 +113,9 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         <div
-          className={`lg:hidden fixed inset-0 bg-black/60 z-10 transition-all transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}></div>
+          className={`lg:hidden fixed inset-0 min-h-screen bg-black/60 z-10 transition-all transform ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}></div>
 
-        <div className={`fixed inset-0 bg-bg-dark w-2/3 md:w-3/5 h-full lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300 ease-in-out z-[9999] px-5 text-light shadow-shadow-primary`}>
+        <div className={`fixed inset-0 !bg-bg-dark w-2/3 md:w-3/5 min-h-screen h-full lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} transition-all duration-300 ease-in-out z-[9999] px-5 text-light shadow-shadow-primary`}>
           <div className='flex justify-between items-center pb-3 pt-8'>
             <Link href="/" onClick={(e) => handleScrollToSection(e, "/")} className='text-lg md:text-2xl font-bold font-Montserrat hover:text-transparent bg-clip-text bg-gradient-to-r from-primary to-light transition-all duration-300'>Mahfuz Ahmed</Link>
             <button className='text-2xl p-2 shadow-shadow-primary bg-gradient-primary rounded-lg hover:bg-bg-dark hover:text-primary transition-all duration-300 hover:shadow-sm hover:shadow-primary hover:-translate-y-1' onClick={() => setIsMenuOpen(false)}><FaXmark /></button>

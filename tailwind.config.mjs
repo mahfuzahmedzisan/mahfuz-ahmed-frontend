@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
-  mode: 'jit',
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +10,7 @@ const config = {
       center: true,
       padding: "1rem",
       screens: {
-        '4xl': '1848px',
+        '3xl': '1536px',
       }
     },
     extend: {
@@ -41,6 +40,7 @@ const config = {
       },
       backgroundImage: {
         'gradient-primary': 'linear-gradient(145deg, #1e2024, #23272b)',
+        'gradient-secondary': 'linear-gradient(to right bottom, #212428, #16181c)',
       },
       boxShadow: {
         'shadow-primary': "10px 10px 19px #1c1e22, -10px -10px 19px #2d3136",

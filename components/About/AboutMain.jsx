@@ -93,6 +93,7 @@ export default function AboutMain() {
               <p className='text-lg lg:text-xl lg:tracking-wider lg:leading-9 text-light font-Poppins mt-10'>
                 Hi, I’m Mahfuz Ahmed Zisan, a passionate web developer who loves learning new technologies and building creative solutions. I specialize in creating responsive, user-friendly websites and applications.
               </p>
+              <button onClick={openAboutDetails} className="px-5 py-2 mt-5 bg-gradient-primary text-white rounded-lg shadow-shadow-primary hover:bg-bg-dark hover:text-primary hover:shadow-sm hover:shadow-primary hover:-translate-y-1 transform transition-all duration-500">About Me</button>
             </div>
             <div className="lg:hidden flex transform transition-all duration-500 hover:scale-105 shadow-shadow-primary hover:shadow-sm hover:shadow-primary rotate-12 hover:rotate-0 rounded-xl relative !my-10">
               <Image
