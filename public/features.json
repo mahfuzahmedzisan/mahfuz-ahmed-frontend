@@ -1,7 +1,7 @@
 [
    {
       "title": "Custom Web Development",
-      "short_description": "Create custom websites tailored to your business needs with modern technologies.",
+      "short_description": "Create tailored websites that meet your business needs with modern technologies and seamless integrations.",
       "long_description": "We design and develop fully customized websites that align with your business goals. Whether you need a simple site or a sophisticated web application, we focus on delivering a high-performing, visually appealing, and user-friendly online presence that resonates with your audience. Our custom web development services include content management system (CMS) integration, scalable architecture, and seamless third-party integrations, ensuring your website evolves as your business grows.",
       "target_audience": "Businesses looking for bespoke websites that stand out and scale as they grow.",
       "key_technologies_used": [
@@ -30,8 +30,8 @@
       "project_duration": "Typically 4-12 weeks depending on the complexity of the project."
    },
    {
-      "title": "E-Commerce Solutions",
-      "short_description": "Build an online store with a seamless shopping experience and secure checkout.",
+      "title": "E-Commerce Web Solutions",
+      "short_description": "Build high-converting online stores with secure payment options and mobile-optimized designs for better sales.",
       "long_description": "Our e-commerce solutions provide you with everything needed to launch and manage a successful online store. We build intuitive platforms that ensure your customers enjoy a smooth shopping experience from browsing to checkout, while also offering flexibility and scalability to grow your business. We specialize in building secure, high-converting online stores that maximize sales and minimize cart abandonment.",
       "target_audience": "Retailers and entrepreneurs looking to launch or upgrade their online stores.",
       "key_technologies_used": [
@@ -60,8 +60,8 @@
       "project_duration": "Typically 3-6 weeks for small to medium-sized stores; 6-12 weeks for large-scale stores."
    },
    {
-      "title": "Responsive Web Design",
-      "short_description": "Ensure your website looks great and functions well on any device.",
+      "title": "Responsive Web Design Services",
+      "short_description": "Ensure your website looks great on all devices with a mobile-first, user-friendly design approach.",
       "long_description": "Our responsive web design ensures that your website automatically adjusts to different screen sizes, from mobile phones to large desktop monitors. We focus on creating user-friendly and visually appealing designs that enhance the user experience across all devices, improving engagement and SEO performance. With the growing importance of mobile traffic, our designs are optimized for both mobile-first and desktop-first approaches to maximize reach and usability.",
       "target_audience": "Businesses aiming to provide an excellent user experience on all devices.",
       "key_technologies_used": [
@@ -90,8 +90,8 @@
       "project_duration": "Typically 2-6 weeks depending on the complexity of the website."
    },
    {
-      "title": "Search Engine Optimization (SEO)",
-      "short_description": "Improve your website's visibility and organic search ranking with SEO.",
+      "title": "SEO Optimization Services",
+      "short_description": "Increase organic traffic and improve search rankings with expert SEO strategies and on-page optimization.",
       "long_description": "Our SEO services are designed to increase your website’s ranking on search engines like Google. We focus on keyword research, on-page optimization, technical SEO, and building a solid backlink profile to help your website gain organic traffic and outperform your competition. Our approach ensures your site is not only optimized for search engines but also delivers valuable, high-quality content that engages users and improves conversions.",
       "target_audience": "Businesses looking to improve their online visibility and drive organic traffic.",
       "key_technologies_used": [
@@ -119,8 +119,8 @@
       "project_duration": "SEO improvements typically begin showing results in 3-6 months."
    },
    {
-      "title": "Website Maintenance & Support",
-      "short_description": "Keep your website secure, up-to-date, and running smoothly with our maintenance plans.",
+      "title": "Website Support & Maintenance",
+      "short_description": "Keep your website secure and up-to-date with regular updates, monitoring, and troubleshooting support.",
       "long_description": "Our website maintenance services are designed to keep your site secure, functional, and up-to-date. From software updates and bug fixes to security monitoring and regular backups, we ensure your website remains efficient, safe, and free of disruptions, giving you peace of mind and allowing you to focus on your business. We offer flexible maintenance plans tailored to your needs, ensuring that your website is always operating at its best.",
       "target_audience": "Businesses that need ongoing support to maintain and optimize their websites.",
       "key_technologies_used": [
@@ -148,7 +148,7 @@
    },
    {
       "title": "Web Application Development",
-      "short_description": "Build powerful, scalable, and interactive web applications to meet your business needs.",
+      "short_description": "Develop scalable, interactive web applications that solve real business problems and enhance productivity.",
       "long_description": "We develop custom web applications using modern frameworks like React, Angular, and Node.js. Our applications are designed to be scalable, secure, and feature-rich, solving real-world business challenges and helping you streamline operations, enhance productivity, and deliver excellent user experiences. From complex enterprise-level solutions to lightweight apps, we offer full-stack development with real-time data processing and advanced integrations.",
       "target_audience": "Businesses looking to build custom software solutions or internal tools.",
       "key_technologies_used": [

@@ -35,8 +35,8 @@ export default function MainPage() {
          <PreLoader isLoading={isLoading} />
       ) : (
          <>
-            <About />
-            <section id='features' className='h-screen'><Features /></section>
+            <section id='home'><About /></section>
+            <section id='features'><Features /></section>
             <section id='projects' className='h-screen'><Project /></section>
             <section id='skills' className='h-screen'><Skill /></section>
             <section id='testimonials' className='h-screen'><Testimonial /></section>

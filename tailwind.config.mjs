@@ -20,6 +20,7 @@ const config = {
         'md': '768px',
         'lg': '992px',
         'xl': '1024px',
+        'xxl': '1200px',
         '2xl': '1280px',
         '3xl': '1536px',
         '4xl': '1848px',
@@ -43,7 +44,7 @@ const config = {
         'gradient-secondary': 'linear-gradient(to right bottom, #212428, #16181c)',
       },
       boxShadow: {
-        'shadow-primary': "10px 10px 19px #1c1e22, -10px -10px 19px #2d3136",
+        'shadow-primary': "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
       },
 
       fontFamily: {

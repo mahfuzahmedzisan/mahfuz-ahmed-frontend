@@ -34,13 +34,13 @@ export default function FeatureCard() {
       switch (name) {
          case 'Custom Web Development':
             return <FaTools />;
-         case 'E-Commerce Solutions':
+         case 'E-Commerce Web Solutions':
             return <FaOpencart />;
-         case 'Responsive Web Design':
+         case 'Responsive Web Design Services':
             return <FaCode />;
-         case 'Search Engine Optimization (SEO)':
+         case 'SEO Optimization Services':
             return <FaSearchengin />;
-         case 'Website Maintenance & Support':
+         case 'Website Support & Maintenance':
             return <RxGear />;
          case 'Web Application Development':
             return <FaLaptopCode />;

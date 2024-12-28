@@ -75,7 +75,7 @@ export default function AboutModal({ closeModal }) {
     <>
       <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-[9999999]">
         <div className="max-w-screen-2xl w-full p-6">
-          <div className={`bg-bg-dark rounded-xl shadow-xl p-8 text-black ${isClosing ? 'animate-slide-down' : 'animate-slide-up'} h-fit max-h-[90vh] overflow-y-auto`}>
+          <div className={`bg-bg-dark rounded-xl shadow-shadow-primary shadow-light/5 p-8 text-black ${isClosing ? 'animate-slide-down' : 'animate-slide-up'} h-fit max-h-[90vh] overflow-y-auto`}>
             {/* Modal Header */}
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-3xl font-semibold text-primary">About Me</h2>
@@ -100,7 +100,7 @@ export default function AboutModal({ closeModal }) {
               />
 
               {/* About Me Text */}
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-2xl space-y-6 w-full lg:w-3/5">
+              <div className="flex flex-col items-center lg:items-start text-left max-w-2xl space-y-6 w-full lg:w-3/5">
                 <h3 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary to-light capitalize">
                   Mahfuz Ahmed Zisan
                 </h3>
@@ -165,11 +165,7 @@ export default function AboutModal({ closeModal }) {
                   >
                     Download CV
                   </a>
-                  <button onClick={handleClose}
-                    className="bg-gradient-primary shadow-shadow-primary text-light px-6 py-3 rounded-md text-xl font-medium transition-all duration-300 hover:-translate-y-1 hover:bg-bg-dark hover:shadow-sm hover:shadow-primary hover:text-primary"
-                  >
-                    Close
-                  </button>
+                  
                 </div>
               </div>
             </div>
