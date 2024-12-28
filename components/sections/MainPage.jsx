@@ -37,7 +37,7 @@ export default function MainPage() {
          <>
             <section id='home'><About /></section>
             <section id='features'><Features /></section>
-            <section id='projects' className='h-screen'><Project /></section>
+            <section id='projects'><Project /></section>
             <section id='skills' className='h-screen'><Skill /></section>
             <section id='testimonials' className='h-screen'><Testimonial /></section>
             <section id='contact' className='h-screen'><Contact /></section>

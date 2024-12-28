@@ -1,0 +1,134 @@
+{
+   "categories": [
+      "React",
+      "Node.js",
+      "Next.js",
+      "Laravel"
+   ],
+   "projects": [
+      {
+         "title": "E-commerce Web Application: E-commerce Platform (React & Next.js)",
+         "category": "React",
+         "technologies": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "JavaScript"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Retail Client",
+         "code_url": ""
+      },
+      {
+         "title": "Web Application: Weather App (React & OpenWeather API)",
+         "category": "React",
+         "technologies": [
+            "React",
+            "OpenWeather API",
+            "JavaScript",
+            "CSS3"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Personal",
+         "code_url": ""
+      },
+      {
+         "title": "Full-Stack Web Application: Task Management System (Node.js & Express)",
+         "category": "Node.js",
+         "technologies": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JavaScript",
+            "Socket.io"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Internal",
+         "code_url": ""
+      },
+      {
+         "title": "Dynamic Web Application: Business CMS (Laravel & MySQL)",
+         "category": "Laravel",
+         "technologies": [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "Bootstrap"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Corporate Client",
+         "code_url": ""
+      },
+      {
+         "title": "Static Website: Responsive Portfolio Website (React & Tailwind CSS)",
+         "category": "React",
+         "technologies": [
+            "React",
+            "Tailwind CSS",
+            "JavaScript"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Personal",
+         "code_url": ""
+      },
+      {
+         "title": "Conversion-Focused Landing Page: Landing Page (HTML, CSS, Bootstrap)",
+         "category": "React",
+         "technologies": [
+            "React",
+            "Bootstrap",
+            "JavaScript",
+            "CSS3"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Marketing Agency",
+         "code_url": ""
+      },
+      {
+         "title": "Blog Platform: Personal Blog (Next.js & Tailwind CSS)",
+         "category": "Next.js",
+         "technologies": [
+            "Next.js",
+            "Tailwind CSS",
+            "JavaScript"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Personal",
+         "code_url": ""
+      },
+      {
+         "title": "Web Application: Real-Time Chat App (Socket.io & Node.js)",
+         "category": "Node.js",
+         "technologies": [
+            "Node.js",
+            "Socket.io",
+            "Express",
+            "JavaScript"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Startup",
+         "code_url": ""
+      },
+      {
+         "title": "Mobile Application: Social Media App (React Native)",
+         "category": "React",
+         "technologies": [
+            "React Native",
+            "Firebase",
+            "JavaScript"
+         ],
+         "image_url": "",
+         "project_url": "",
+         "client": "Startup",
+         "code_url": ""
+      }
+   ]
+}
