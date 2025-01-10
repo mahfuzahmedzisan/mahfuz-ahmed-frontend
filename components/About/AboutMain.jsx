@@ -72,7 +72,7 @@ export default function AboutMain() {
     <>
       {isAboutDetailsOpen && <AboutModal closeModal={closeAboutDetails} />}
 
-      <div className='relative flex flex-col lg:flex-row items-center justify-center min-h-screen h-full'>
+      <div className='relative flex flex-wrap flex-col lg:flex-row items-center justify-center min-h-screen h-full'>
         <div className="flex flex-col items-center lg:items-start text-left max-w-2xl space-y-6 w-full lg:w-3/5">
           <div>
             <p className='text-base text-light capitalize mb-3 lg:mb-7'>Welcome to my world</p>
@@ -131,6 +131,7 @@ export default function AboutMain() {
           </div>
 
         </div>
+
         <div className="w-full lg:w-2/5 flex justify-center items-center mb-6 lg:mb-0">
           <div className="hidden lg:flex transform transition-all duration-500 hover:scale-105 shadow-shadow-primary hover:shadow-sm hover:shadow-primary rotate-12 hover:rotate-0 rounded-xl relative">
 

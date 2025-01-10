@@ -1,0 +1,107 @@
+{
+  "technical": [
+    {
+      "name": "JavaScript",
+      "proficiency": "Advanced",
+      "percentage": "90%"
+    },
+    {
+      "name": "Python",
+      "proficiency": "Intermediate",
+      "percentage": "80%"
+    },
+    {
+      "name": "React",
+      "proficiency": "Advanced",
+      "percentage": "90%"
+    },
+    {
+      "name": "Node.js",
+      "proficiency": "Intermediate",
+      "percentage": "80%"
+    },
+    {
+      "name": "SQL",
+      "proficiency": "Advanced",
+      "percentage": "90%"
+    }
+  ],
+  "soft_skills": [
+    {
+      "name": "Communication",
+      "proficiency": "Excellent"
+    },
+    {
+      "name": "Problem Solving",
+      "proficiency": "Excellent"
+    },
+    {
+      "name": "Leadership",
+      "proficiency": "Good"
+    },
+    {
+      "name": "Time Management",
+      "proficiency": "Good"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "proficiency": "Advanced",
+      "percentage": "90%"
+    },
+    {
+      "name": "Docker",
+      "proficiency": "Intermediate",
+      "percentage": "80%"
+    },
+    {
+      "name": "AWS",
+      "proficiency": "Intermediate",
+      "percentage": "80%"
+    },
+    {
+      "name": "JIRA",
+      "proficiency": "Good",
+      "percentage": "80%"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of XYZ",
+      "year_of_completion": 2020,
+      "grade": "First Class"
+    },
+    {
+      "degree": "High School Diploma",
+      "institution": "ABC High School",
+      "year_of_completion": 2016,
+      "grade": "Distinction"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "year": 2023
+    },
+    {
+      "name": "Certified Scrum Master (CSM)",
+      "year": 2022
+    },
+    {
+      "name": "Google Data Analytics Certificate",
+      "year": 2021
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Intermediate"
+    },
+    {
+      "name": "Bangla",
+      "proficiency": "Excellent"
+    }
+  ]
+}
