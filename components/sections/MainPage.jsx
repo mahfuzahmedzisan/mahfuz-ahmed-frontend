@@ -1,6 +1,10 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
+
+import Header from "@/components/header/Header";
+import Footer from "@/components/Footer";
+
 import About from './About';
 import Features from './Features';
 import Project from './Projects';
@@ -35,12 +39,15 @@ export default function MainPage() {
          <PreLoader isLoading={isLoading} />
       ) : (
          <>
+            <Header />
             <section id='home'><About /></section>
             <section id='features'><Features /></section>
             <section id='projects'><Project /></section>
             <section id='skills'><Skill /></section>
             <section id='testimonials'><Testimonial /></section>
             <section id='contact'><Contact /></section>
+            <Footer />
+
          </>
       )
    );
