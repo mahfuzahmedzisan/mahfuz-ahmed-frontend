@@ -25,8 +25,11 @@ export default function Testimonial() {
 
    return (
       <>
-         <div className="container">
+         <div className="container relative pb-24">
             {isLoading && <Loading isLoading={isLoading} />}
+
+            <h3 className='text-primary text-lg tracking-widest text-center'>Recent Testimonials</h3>
+            <h2 className='text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-light mb-16 text-center'>What People Are Saying</h2>
 
             <TestimonialCard testimonials={testimonials} />
          </div>

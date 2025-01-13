@@ -49,4 +49,13 @@ body {
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--primary) var(--bg);
+}
+
+@layer base {
+  :root {
+
+    --radius: 0.5rem;
+
+  }
+
 } 

@@ -64,25 +64,43 @@ export default function Navbar() {
   }, [])
 
   const handleScrollToSection = (e, section) => {
-    e.preventDefault()
-
-    if (section === "/") {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      })
+    e.preventDefault();
+  
+    let offset = 0;  // Adjust as needed depending on navbar height
+    if (window.innerWidth <= 1024) {
+      offset = 60;  // Mobile padding
     } else {
-      const targetSection = document.querySelector(section)
-      if (targetSection) {
-        targetSection.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-        })
-      }
+      offset = 100;  // Desktop padding
     }
-
-    setIsMenuOpen(false)
-  }
+  
+    // Determine the target section
+    const targetSection = section === "/" ? 0 : document.querySelector(section)?.offsetTop;
+    if (targetSection !== undefined) {
+      // Use a custom smooth scroll behavior with `requestAnimationFrame` for more control
+      let start = window.scrollY;
+      let distance = targetSection - offset - start;
+      let startTime = null;
+  
+      // Smooth scroll function with easing
+      const smoothScroll = (timestamp) => {
+        if (!startTime) startTime = timestamp;
+        const progress = timestamp - startTime;
+        const easing = Math.min(progress / 600, 1); // Easing function (linear)
+        window.scrollTo(0, start + distance * easing);
+  
+        if (progress < 600) {
+          requestAnimationFrame(smoothScroll);
+        } else {
+          window.scrollTo(0, targetSection - offset); // Final position
+        }
+      };
+  
+      requestAnimationFrame(smoothScroll);
+    }
+  
+    setIsMenuOpen(false);
+  };
+  
 
   return (
     <>

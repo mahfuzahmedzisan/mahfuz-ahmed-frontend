@@ -1,32 +1,38 @@
 [
   {
     "name": "John Doe",
-    "title": "Software Engineer",
+    "profession": "Software Engineer",
     "company": "Tech Solutions Inc.",
     "location": "New York, NY",
     "date": "2025-01-10",
     "rating": 5,
     "image": "",
-    "comment": "This service has completely transformed the way I work! Highly recommend it to anyone in the industry."
+    "platform": "Upwork",
+    "title": "Web Development",
+    "comment": "This web development service has been a game-changer for me. As a software engineer, I rely heavily on efficiency and speed. The tools and support provided through this platform have drastically improved my workflow. From responsive design to backend integration, this service has everything I need to deliver high-quality web projects on time. I highly recommend it to anyone in the tech field!"
   },
   {
     "name": "Jane Smith",
-    "title": "Marketing Manager",
+    "profession": "Marketing Manager",
     "company": "Creative Co.",
     "location": "Los Angeles, CA",
     "date": "2025-01-08",
     "rating": 4,
     "image": "",
-    "comment": "Great experience overall. The product exceeded my expectations, but I hope for even more features in the future!"
+    "platform": "Freelancing",
+    "title": "Web Design and Development",
+    "comment": "Overall, my experience with this web development service has been fantastic! It helped us create an attractive, responsive website for our marketing campaigns. The integration of SEO and user-friendly design features exceeded our expectations. I’m looking forward to more features in the future to make our websites even more powerful!"
   },
   {
     "name": "Alice Brown",
-    "title": "Product Designer",
+    "profession": "Product Designer",
     "company": "Designs By Alice",
     "location": "San Francisco, CA",
     "date": "2025-01-05",
     "rating": 5,
     "image": "",
-    "comment": "I’ve been using this for several months, and it has drastically improved my productivity. Fantastic tool for professionals!"
+    "platform": "Fiverr",
+    "title": "Frontend Web Development",
+    "comment": "As a product designer working on web-based projects, I need seamless integration between design and development. This service has been incredibly valuable in making that connection happen. The team was highly skilled in frontend technologies, ensuring that my designs were translated into a highly interactive and visually appealing website. I’m thrilled with the results and highly recommend it to any designer looking for top-notch web development!"
   }
 ]

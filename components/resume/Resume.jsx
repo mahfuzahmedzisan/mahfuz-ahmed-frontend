@@ -42,7 +42,7 @@ export default function Resume() {
     <>
       <p className='text-primary text-lg tracking-widest mt-10 lg:mt-0 text-center'>Explore My Resume</p>
       <h2 className='text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-light mb-10 text-center'>My Resume</h2>
-      <div className='flex flex-col gap-20 mb-28'>
+      <div className='flex flex-col gap-20'>
         <ResumeFilter
           categories={categories}
           selectedCategory={selectedCategory}
