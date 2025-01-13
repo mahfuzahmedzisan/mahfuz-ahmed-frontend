@@ -8,22 +8,34 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [socialLinks, setSocialLinks] = useState([])
   const [activeSection, setActiveSection] = useState("home")
-
-  const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Features', path: '#features' },
-    { name: 'Projects', path: '#projects' },
-    { name: 'Skills', path: '#skills' },
-    { name: 'Testimonials', path: '#testimonials' },
-    { name: 'Contact', path: '#contact' },
-  ]
+  const [navItems, setNavItems] = useState([])
 
   useEffect(() => {
-    fetch('social-links.json')
-      .then(res => res.json())
-      .then(data => setSocialLinks(data))
-      .catch(err => console.log(err))
+    const fetchSocialLinks = async () => {
+      try {
+        const response = await fetch('social-links.json')
+        const data = await response.json()
+        setSocialLinks(data)
+      } catch (err) {
+        console.log("Error: ", err)
+      }
+    }
+
+    const fetchNavItems = async () => {
+      try {
+        const response = await fetch('/NavItem.json');  // Ensure this file is in your public
+        const data = await response.json()
+        setNavItems(data)
+      } catch (err) {
+        console.error('Error: ', err);
+      }
+    }
+    
+    fetchSocialLinks()
+    fetchNavItems()
   }, [])
+
+ 
 
   const getIcon = (name) => {
     switch (name) {
@@ -65,14 +77,14 @@ export default function Navbar() {
 
   const handleScrollToSection = (e, section) => {
     e.preventDefault();
-  
+
     let offset = 0;  // Adjust as needed depending on navbar height
     if (window.innerWidth <= 1024) {
       offset = 60;  // Mobile padding
     } else {
-      offset = 100;  // Desktop padding
+      offset = 80;  // Desktop padding
     }
-  
+
     // Determine the target section
     const targetSection = section === "/" ? 0 : document.querySelector(section)?.offsetTop;
     if (targetSection !== undefined) {
@@ -80,27 +92,27 @@ export default function Navbar() {
       let start = window.scrollY;
       let distance = targetSection - offset - start;
       let startTime = null;
-  
+
       // Smooth scroll function with easing
       const smoothScroll = (timestamp) => {
         if (!startTime) startTime = timestamp;
         const progress = timestamp - startTime;
         const easing = Math.min(progress / 600, 1); // Easing function (linear)
         window.scrollTo(0, start + distance * easing);
-  
+
         if (progress < 600) {
           requestAnimationFrame(smoothScroll);
         } else {
           window.scrollTo(0, targetSection - offset); // Final position
         }
       };
-  
+
       requestAnimationFrame(smoothScroll);
     }
-  
+
     setIsMenuOpen(false);
   };
-  
+
 
   return (
     <>
