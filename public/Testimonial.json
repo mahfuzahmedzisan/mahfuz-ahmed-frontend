@@ -1,0 +1,32 @@
+[
+  {
+    "name": "John Doe",
+    "title": "Software Engineer",
+    "company": "Tech Solutions Inc.",
+    "location": "New York, NY",
+    "date": "2025-01-10",
+    "rating": 5,
+    "image": "",
+    "comment": "This service has completely transformed the way I work! Highly recommend it to anyone in the industry."
+  },
+  {
+    "name": "Jane Smith",
+    "title": "Marketing Manager",
+    "company": "Creative Co.",
+    "location": "Los Angeles, CA",
+    "date": "2025-01-08",
+    "rating": 4,
+    "image": "",
+    "comment": "Great experience overall. The product exceeded my expectations, but I hope for even more features in the future!"
+  },
+  {
+    "name": "Alice Brown",
+    "title": "Product Designer",
+    "company": "Designs By Alice",
+    "location": "San Francisco, CA",
+    "date": "2025-01-05",
+    "rating": 5,
+    "image": "",
+    "comment": "I’ve been using this for several months, and it has drastically improved my productivity. Fantastic tool for professionals!"
+  }
+]
