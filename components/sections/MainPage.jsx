@@ -1,38 +1,36 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
+import dynamic from 'next/dynamic';
 
 import Header from "@/components/header/Header";
 import Footer from "@/components/Footer";
 
-import About from './About';
-import Features from './Features';
-import Project from './Projects';
-import Skill from './Skills';
-import Testimonial from './Testimonials';
-import Contact from './Contact';
-import PreLoader from '../PreLoader';
-import CustomCursor from '../CustomCursor';
+const About = dynamic(() => import('./About'), { ssr: false });
+const Features = dynamic(() => import('./Features'), { ssr: false });
+const Project = dynamic(() => import('./Projects'), { ssr: false });
+const Skill = dynamic(() => import('./Skills'), { ssr: false });
+const Testimonial = dynamic(() => import('./Testimonials'), { ssr: false });
+const Contact = dynamic(() => import('./Contact'), { ssr: false });
+const PreLoader = dynamic(() => import('../PreLoader'), { ssr: false });
+const CustomCursor = dynamic(() => import('../CustomCursor'), { ssr: false })
 
 export default function MainPage() {
    const [isLoading, setIsLoading] = useState(true);
    const [isClient, setIsClient] = useState(false);
 
    useEffect(() => {
-      setIsClient(true);  // Only set this after the component mounts on the client side
+      setIsClient(true);
 
-      // Simulate a loading delay (3 seconds) before hiding the preloader
       const timer = setTimeout(() => {
-         setIsLoading(false); // Hide preloader after 3 seconds
+         setIsLoading(false);
       }, 3000);
 
-      // Cleanup the timer when the component unmounts
       return () => clearTimeout(timer);
    }, []);
 
-   // Ensure no hydration issues by only rendering the real content after client-side mount
    if (!isClient) {
-      return null; // Prevent mismatch during SSR
+      return null;
    }
 
    return (
@@ -49,7 +47,6 @@ export default function MainPage() {
             <section id='contact'><Contact /></section>
             <Footer />
             <CustomCursor />
-
          </>
       )
    );

@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from 'react'
 import TestimonialCard from '../TestimonialCard'
 import Loading from '../Loading';

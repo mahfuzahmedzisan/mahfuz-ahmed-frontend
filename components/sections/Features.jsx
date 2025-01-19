@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import FeatureCard from '@/components/Features/FeatureCard'
 

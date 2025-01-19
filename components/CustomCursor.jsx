@@ -1,10 +1,15 @@
-import React, { useEffect, useState } from 'react'
+'use client'
+
+import React, { useEffect, useState } from 'react';
 
 export default function CustomCursor() {
   const [cursorStyle, setCursorStyle] = useState('default');
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isClient, setIsClient] = useState(false);  // Track client-side rendering
 
   useEffect(() => {
+    setIsClient(true);  // Set to true when component is mounted on client
+
     const handleMouseMove = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
@@ -46,6 +51,8 @@ export default function CustomCursor() {
   };
 
   useEffect(() => {
+    if (!isClient) return;  // Don't run until after the component is mounted
+
     const handleStarCreation = (e) => {
       if (Math.random() < 0.3) {
         createStar(e.clientX, e.clientY);
@@ -57,16 +64,17 @@ export default function CustomCursor() {
     return () => {
       document.removeEventListener('mousemove', handleStarCreation);
     };
-  }, []);
+  }, [isClient]);
+
+  // Ensure nothing is rendered until after client-side mounting
+  if (!isClient) return null;
 
   return (
-    <>
-      <div
-        className={`cursor-wrapper fixed top-0 left-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 transition-transform z-[99999999] ${cursorStyle === 'click' ? 'scale-50 bg-light rounded-full shadow-shadow-primary' : 'scale-100'}`}
-        style={{ left: `${position.x}px`, top: `${position.y}px` }}
-      >
-        <div className={`custom-cursor w-6 h-6 border border-light rounded-full pointer-events-none transition-all`}></div>
-      </div>
-    </>
+    <div
+      className={`cursor-wrapper fixed top-0 left-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 transition-transform z-[99999999] ${cursorStyle === 'click' ? 'scale-50 bg-light rounded-full shadow-shadow-primary' : 'scale-100'}`}
+      style={{ left: `${position.x}px`, top: `${position.y}px` }}
+    >
+      <div className={`custom-cursor w-6 h-6 border border-light rounded-full pointer-events-none transition-all`}></div>
+    </div>
   );
 }

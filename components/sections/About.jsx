@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import AboutMain from '@/components/About/AboutMain'
 import BackgroundText from '@/components/BackgroundText'
