@@ -12,6 +12,7 @@ import Skill from './Skills';
 import Testimonial from './Testimonials';
 import Contact from './Contact';
 import PreLoader from '../PreLoader';
+import CustomCursor from '../CustomCursor';
 
 export default function MainPage() {
    const [isLoading, setIsLoading] = useState(true);
@@ -47,6 +48,7 @@ export default function MainPage() {
             <section id='testimonials'><Testimonial /></section>
             <section id='contact'><Contact /></section>
             <Footer />
+            <CustomCursor />
 
          </>
       )
