@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function ProjectsCard({ items }) {
    return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-6">
          {items.map((item, index) => (
             <div key={index} className="rounded-md relative shadow-shadow-primary bg-gradient-primary overflow-hidden h-fit group">
                {/* Scrollable container for image */}
@@ -16,7 +16,7 @@ export default function ProjectsCard({ items }) {
                      alt={item.title}
                      width={1000}
                      height={500}
-                     className='rounded-md' // Ensures the image fits within the container
+                     className='rounded-md'
                   />
                </div>
 

@@ -71,7 +71,7 @@ export default function CustomCursor() {
 
   return (
     <div
-      className={`cursor-wrapper fixed top-0 left-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 transition-transform z-[99999999] ${cursorStyle === 'click' ? 'scale-50 bg-light rounded-full shadow-shadow-primary' : 'scale-100'}`}
+      className={`cursor-wrapper fixed top-0 left-0 pointer-events-none transform -translate-x-1/2 -translate-y-1/2 transition-transform z-[99999999] ${cursorStyle === 'click' ? 'scale-50 bg-light rounded-full shadow-shadow-primary' : 'scale-100'} hidden xl:flex items-center justify-center`}
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     >
       <div className={`custom-cursor w-6 h-6 border border-light rounded-full pointer-events-none transition-all`}></div>
